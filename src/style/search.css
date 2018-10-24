@@ -1,0 +1,80 @@
+.search {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background: #FDFACD;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.articles {
+    max-width: 95%;
+    background: #FDC136;
+    margin: 4rem auto;
+}
+th, td {
+    vertical-align: top;
+    text-align: left;
+}
+
+td:nth-of-type(2) {
+    cursor: pointer;
+}
+td:nth-of-type(2):hover {
+    background: orange;
+}
+p{
+    color: #7B7A62;
+}
+form {
+    width: 100%;
+}
+input, button, p, span {
+    font-size: 1rem;
+}
+table {
+    font-size: 0.5rem;
+}
+input[type="text"] {
+    padding-left: 0.5rem;
+    margin: 0 1rem 1rem 1rem;
+}
+input[type="range"] {
+    width: 90%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+button, input, p,span, table {
+    text-transform: capitalize;
+    color: #464541;
+}
+button {
+    background: #BF83FA;
+}
+input, button,td,th {
+    border: 0.1rem solid black;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+.random {
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 54.8em) {
+    input, button, p, span, table{
+        font-size: 1.5rem;
+    }
+    input[type="range"] {
+        width: 50%;
+        margin-right: 2rem;
+    }
+}
+@media only screen and (min-width: 62.5em) {
+    input, button, p, span, table {
+        font-size: 2rem;
+    }
+    input[type="range"] {
+        width: 50%;
+        margin-right: 2rem;
+    }
+}
